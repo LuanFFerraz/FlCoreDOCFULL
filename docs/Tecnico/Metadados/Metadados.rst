@@ -45,9 +45,20 @@ O metadado WA Core Depois da Entrada Mensagem é responsável por disparar as me
  
 Parâmetro global
 ~~~~~~~~~~~~~~~~~~~~~~~~
+.. Tip:: O Parâmetro global é o metadado responsável por configuraras instancias dos servidores, tanto Mob quanto Web, contendo os campos Rótulo, Nome de Parâmetro Global, Contexto e Atributte1.
 
-O Parâmetro global é um metadado que contém as instâncias dos servidores para cada tipo de registros.
-Exemplo: Registro Único, é a instância do servidor do whatsapp.
+    +---------------------------+------------------------------------------------------------+
+    | Nome                      | Descrição                                                  |
+    +===========================+============================================================+
+    | Rótulo                    | Nome Instancia                                             |
+    +---------------------------+------------------------------------------------------------+
+    | Contexto                  | Forma de distinção entre os contextos disponíveis          |
+    +---------------------------+------------------------------------------------------------+
+    | Nome do Parâmetro Global  | Nome da API                                                |
+    +---------------------------+------------------------------------------------------------+
+    | Atributte1                | Link da aplicação Web                                      |
+    +---------------------------+------------------------------------------------------------+
+
 
 Registro Único
 ~~~~~~~~~~~~~~~~~~~~~~~~
