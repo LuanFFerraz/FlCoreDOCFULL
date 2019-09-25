@@ -35,6 +35,7 @@ Um Contato Falae também pode ser criado através deste modal, pesquisando pelo 
     :alt: Solidity logo
     :align: center
     
+    Pesquisa de Contato através do modal
     
 Após a seleção deste botão, um outro modal poderá ser aberto onde a opção de criar um Contato Falae estará disponível ao pesquisar um contato inexistente.
 
@@ -43,7 +44,16 @@ Após a seleção deste botão, um outro modal poderá ser aberto onde a opção
     :alt: Solidity logo
     :align: center
   
+    Selecionar a opção "Criar Contato Falae"
+    
+Ao selecionar a opção de Criar Contato Falae o modal para entrar com as informações deste novo contato aparecerá na tela.
 
+.. figure:: Inbox16.png
+    :width: 500px
+    :alt: Solidity logo
+    :align: center
+  
+    Menu de criação do novo Contato Falae
 
 Selecionar Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
