@@ -20,6 +20,20 @@ O Parâmetro global é o metadado responsável por configuraras instancias dos s
     | Atributte1                | Link da aplicação Web                                      |
     +---------------------------+------------------------------------------------------------+
 
-Registro Único
+Periodicidade de Atualização
 ~~~~~~~~~~~~~~~~~~~~~~~~
-O metadado Registro Único serve para identificar o tipo de registro “ServidorWhatsapp” e por a url do servidor do Whatsapp.
+O metadado Periodicidade de Atualização possui um registro chamado "Registro Único", que é responsável por atualização do chat das conversas e o inbox falae.
+
+.. Tip:: 
+
+    +--------------------------------------+------------------------------------------------------------+
+    | Nome                                 | Descrição                                                  |
+    +======================================+============================================================+
+    | Rótulo                               | Nome da Instancia                                          |
+    +--------------------------------------+------------------------------------------------------------+
+    | Nome de Periodicidade de Atualização | Nome da API                                                |
+    +--------------------------------------+------------------------------------------------------------+
+    | Inbox do Falae                       | Periodicidade da atualização do Inbox                      |
+    +--------------------------------------+------------------------------------------------------------+
+    | Chat do Falae                        | Periodicidade da atualização do Chat                       |
+    +-------------------------------------=+------------------------------------------------------------+
