@@ -45,7 +45,7 @@ Clique em Salvar.
 .. Hint:: Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
           
     
-.. Hint:: Quando tiver os dados certo e o Status para Registrando, será necessário entrar em contato conosco para a ativação da organização (caso seja o primeiro parâmetro do tipo :Whatsapp - Inpulso Web: da organização). 
+.. Hint:: Quando tiver os dados certo e o Status para Registrando, será necessário entrar em contato conosco para a ativação da organização (caso seja o primeiro parâmetro do tipo **Whatsapp - Inpulso Mob** da organização). 
 
 Ao finalizar o cadastro de um novo parâmetro Whatsapp - Inpulso Mob, será enviado um código para autenticação do número, caso seja possível, caso contrário mostrará quanto tempo falta para enviar um novo código tanto para Voz quanto para SMS.
 
