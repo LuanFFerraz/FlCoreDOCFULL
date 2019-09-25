@@ -58,14 +58,14 @@ Ao selecionar a opção de Criar Contato Falae o modal para entrar com as inform
 Selecionar Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: Inbox1.png
+.. figure:: Inbox1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
     
     Barra superior da tela
     
-Através da barra lateral esquerda pode-se pode-se selecionar qual conversa abrir. Através da conversa é possível ler as mensagens enviadas e responder ao cliente.
+Através da barra lateral esquerda pode-se selecionar qual conversa abrir. Na conversa é possível ler as mensagens enviadas e responder ao cliente.
 
 Vincular/Desvincular Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,7 +128,7 @@ Criação de Caso
 Um caso pode ser aperto durante a conversa utilizando o botão de ações que se encontra no canto superior direito da conversa.
 
 .. figure:: Inbox14.png
-    :width: 650px
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
@@ -149,7 +149,7 @@ Fechando uma Conversa
 Uma conversa pode ser fechada através do botão de ações encontrado no canto superior direito da conversa. Ao selecionar a opção de Fechar Conversa uma mensagem de confirmação será mostrada em tela e a conversa será fechada imediatamente.
 
 .. figure:: Inbox13.png
-    :width: 650px
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
