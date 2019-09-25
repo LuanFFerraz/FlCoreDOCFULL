@@ -7,14 +7,14 @@ O Inbox do Falae é acessado através da barra superior. Acessando-a é possíve
 Abrindo uma Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Uma conversa pode ser iniciada através do SalesForce de direção Empresa para Cliente utilizando o botão "Iniciar Conversa" no canto superior direito.
+Uma conversa pode ser iniciada através do Falae de direção Empresa para Cliente utilizando o botão "Iniciar Conversa" no canto superior direito.
 
-.. image:: Inbox9.png
+.. figure:: Inbox9.png
     :width: 250px
     :alt: Solidity logo
     :align: center
     
-
+    Botão de Iniciar Conversa
 
 Um modal será aberto onde poderá ser selecionado um Contato Falae para iniciar a conversa.
 
@@ -23,7 +23,7 @@ Um modal será aberto onde poderá ser selecionado um Contato Falae para iniciar
     :alt: Solidity logo
     :align: center
     
-    
+    Modal de inicio de conversa
 
 Criando um Contato Falae
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +43,7 @@ Após a seleção deste botão, um outro modal poderá ser aberto onde a opção
     :alt: Solidity logo
     :align: center
   
-    
+
 
 Selecionar Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,3 +112,37 @@ A criação de uma Conta/Lead pode também ser realizada através deste painel. 
     Painel de criação de Contato/Lead
     
 Após a criação a Conta/Lead pode ser vinculada a Conversa
+
+Criação de Caso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Um caso pode ser aperto durante a conversa utilizando o botão de ações que se encontra no canto superior direito da conversa.
+
+.. figure:: Inbox14.png
+    :width: 650px
+    :alt: Solidity logo
+    :align: center
+    
+    Opção de Abrir Caso
+
+Ao realizar esta ação um modal será aberto, onde o usuário poderá criar um Caso ao Selecionar o botão "Novo"
+
+.. figure:: Inbox15.png
+    :width: 650px
+    :alt: Solidity logo
+    :align: center
+    
+    Criação de Caso
+
+
+Fechando uma Conversa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uma conversa pode ser fechada através do botão de ações encontrado no canto superior direito da conversa. Ao selecionar a opção de Fechar Conversa uma mensagem de confirmação será mostrada em tela e a conversa será fechada imediatamente.
+
+.. figure:: Inbox13.png
+    :width: 650px
+    :alt: Solidity logo
+    :align: center
+    
+    Opção de Fechar Conversa
+
+
