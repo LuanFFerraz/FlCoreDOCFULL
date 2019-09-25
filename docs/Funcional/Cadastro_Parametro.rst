@@ -43,7 +43,7 @@ Clique em Salvar.
 .. Hint:: Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
           
     
-.. Hint:: Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização (caso seja o primeiro parâmetro do tipo Inpulso Web da organização).  
+.. Hint:: Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização (caso seja o primeiro parâmetro do tipo **Whatsapp - Inpulso Web** da organização).  
     
 Quando estiver no Status "Registrado" recarregue a página para aparecer o QR Code, para conectar o seu número será necessário escanear o QR Code que aparece na seção "Autenticação Salesforce". 
 
