@@ -36,4 +36,4 @@ O metadado Periodicidade de Atualização possui um registro chamado "Registro �
     | Inbox do Falae                       | Periodicidade da atualização do Inbox                      |
     +--------------------------------------+------------------------------------------------------------+
     | Chat do Falae                        | Periodicidade da atualização do Chat                       |
-    +-------------------------------------=+------------------------------------------------------------+
+    +--------------------------------------+------------------------------------------------------------+
