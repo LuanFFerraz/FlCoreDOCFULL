@@ -33,7 +33,7 @@ Contato -> Contact Layout - Sample Falae
 
     Layouts da páginas.
 
-No objeto Contato, temos o exemplo de Layout mostrando como implementar o **Chat do Falae** caso tenha alguma conversa vinculada com o objeto.
+No objeto Contato, temos o exemplo de Layout mostrando como implementar o **Inbox do Falae** caso tenha alguma conversa vinculada com o objeto.
 
 .. figure:: img/sampleLayout4.png
     :width: 800px
@@ -52,7 +52,7 @@ Lead -> Lead Layout - Sample Falae
 
     Layouts da páginas.
 
-No objeto Lead, temos o exemplo de Layout mostrando como implementar o **Chat do Falae** caso tenha alguma conversa vinculada com o objeto.
+No objeto Lead, temos o exemplo de Layout mostrando como implementar o **Inbox do Falae** caso tenha alguma conversa vinculada com o objeto.
 
 .. figure:: img/sampleLayout6.png
     :width: 800px
