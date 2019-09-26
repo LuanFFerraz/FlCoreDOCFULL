@@ -7,7 +7,7 @@ Alguns objetos apresentam layouts de exemplo disponíveis após a instalacao do 
 Caso -> Case Layout - Sample Falae
 -----------------------
 
-.. figure:: ../docs/img/sampleLayout1.png
+.. figure:: ./docs/img/sampleLayout1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
