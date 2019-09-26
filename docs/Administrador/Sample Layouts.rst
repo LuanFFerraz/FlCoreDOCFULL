@@ -7,7 +7,7 @@ Alguns objetos apresentam layouts de exemplo disponíveis após a instalacao do 
 Caso -> Case Layout - Sample Falae
 -----------------------
 
-.. figure:: /img/sampleLayout1.png
+.. figure:: img/sampleLayout1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -16,7 +16,7 @@ Caso -> Case Layout - Sample Falae
 
 No objeto Caso, temos o exemplo de Layout mostrando como implementar o **Chat do Falae** caso tenha alguma conversa vinculada com o objeto.
 
-.. figure:: /img/sampleLayout2.png
+.. figure:: img/sampleLayout2.png
     :width: 800px
     :alt: Solidity logo
     :align: center
