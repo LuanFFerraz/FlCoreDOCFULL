@@ -2,72 +2,93 @@
 Acionadores do Apex
 #################
 
-ParametroWhatsapp_aiu
+ParametroFalae_aiu
 -----------------------
 
-O ParametroWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Parâmetro Whatsapp.
+O ParametroFalae_aiu é um acionador executado depois da inserção e depois da atualização do objeto Parâmetro Falae.
 
-Nele apenas é chamado o método executeTrigger da classe ParametroWhatsappHandler.
+Nele apenas é chamado o método executeTrigger da classe ParametroFalaeHandler.
 
 .. Important::
    Referências:
     Objeto Personalizado:
-    `ParametroWhatsapp`_
+    `ParametroFalae`_
 
-ConversaWhatsapp_aiu
+ConversaFalae_aiu
 -----------------------
-O ConversaWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Conversa do Whatsapp.
+O ConversaFalae_aiu é um acionador executado depois da inserção e depois da atualização do objeto Conversa do Falae.
 
-Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandler.
+Nele apenas é chamado o método executeTrigger da classe ConversaFalaeHandler.
 
 .. Important::
    Referências:
     Objeto Personalizado:
-    `Conversa do Whatsapp`_
+    `Conversa do Falae`_
 
-ConversaWhatsapp_biu
+ConversaFalae_biu
 -----------------------
 
-O ConversaWhatsapp_biu é um acionador executado antes da inserção e antes da atualização do objeto Conversa do Whatsapp.
+O ConversaFalae_biu é um acionador executado antes da inserção e antes da atualização do objeto Conversa do Falae.
 
-Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandler.
+Nele apenas é chamado o método executeTrigger da classe ConversaFalaeHandler.
 
 .. Important::
    Referências:
     Objeto Personalizado:
-    `ConversaWhatsapp`_
+    `ConversaFalae`_
 
 
 
-MensagemWhatsapp_aiu
+MensagemFalae_aiu
 -----------------------
 
-O MensagemWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Mensagem do Whatsapp.
+O MensagemFalae_aiu é um acionador executado depois da inserção e depois da atualização do objeto Mensagem do Falae.
 
-Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandler.
+Nele apenas é chamado o método executeTrigger da classe MensagemFalaeHandler.
 
 .. Important::
    Referências:
     Objeto Personalizado:
-    `Mensagem do Whatsapp`_
+    `Mensagem do Falae`_
 
 
 
-MensagemWhatsapp_biu
+MensagemFalae_biu
 -----------------------
 
-O MensagemWhatsapp_biu é um acionador executado antes da inserção e antes da atualização do objeto Mensagem do Whatsapp.
+O MensagemFalae_biu é um acionador executado antes da inserção e antes da atualização do objeto Mensagem do Falae.
 
-Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandler.
+Nele apenas é chamado o método executeTrigger da classe MensagemFalaeHandler.
 
 .. Important::
    Referências:
     Objeto Personalizado:
-    `Mensagem do Whatsapp`_
+    `Mensagem do Falae`_
 
-.. _Conversa do Whatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html#conversa-do-whatsapp
-.. _Mensagem do Whatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html#mensagem-do-whatsapp
-.. _ContatoWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
-.. _ConversaWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
-.. _ParametroWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
-.. _MensagemWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+Lead_aiud
+-----------------------
+
+O Lead_aiud é um acionador executado após inserção, alteração e exclusão de um Lead, este acionador executa o método executeTrigger da classe LeadHandler, passando o oldmap do Lead excluido.
+
+
+.. Important::
+   Referências:
+    Objeto Personalizado:
+    
+
+ContatoFalae_biu
+-----------------------
+
+O Lead_aiud é um acionador executado após inserção, alteração e exclusão de um Lead, este acionador executa o método executeTrigger da classe ContatoFalaeHandler, passando o oldmap do ContatoFalae excluido.
+
+.. Important::
+   Referências:
+    Objeto Personalizado:
+    `Mensagem do Falae`_
+
+.. _Conversa do Falae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+.. _Mensagem do Falae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+.. _ContatoFalae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+.. _ConversaFalae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+.. _ParametroFalae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
+.. _MensagemFalae : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html
