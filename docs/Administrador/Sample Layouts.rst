@@ -26,7 +26,7 @@ No objeto Caso, temos o exemplo de Layout mostrando como implementar o **Chat do
 Contato -> Contact Layout - Sample Falae
 -----------------------
 
-.. figure:: /img/sampleLayout3.png
+.. figure:: img/sampleLayout3.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -35,7 +35,7 @@ Contato -> Contact Layout - Sample Falae
 
 No objeto Contato, temos o exemplo de Layout mostrando como implementar o **Chat do Falae** caso tenha alguma conversa vinculada com o objeto.
 
-.. figure:: /img/sampleLayout4.png
+.. figure:: img/sampleLayout4.png
     :width: 800px
     :alt: Solidity logo
     :align: center
@@ -45,7 +45,7 @@ No objeto Contato, temos o exemplo de Layout mostrando como implementar o **Chat
 Lead -> Lead Layout - Sample Falae
 -----------------------
 
-.. figure:: /img/sampleLayout5.png
+.. figure:: img/sampleLayout5.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -54,7 +54,7 @@ Lead -> Lead Layout - Sample Falae
 
 No objeto Lead, temos o exemplo de Layout mostrando como implementar o **Chat do Falae** caso tenha alguma conversa vinculada com o objeto.
 
-.. figure:: /img/sampleLayout6.png
+.. figure:: img/sampleLayout6.png
     :width: 800px
     :alt: Solidity logo
     :align: center
