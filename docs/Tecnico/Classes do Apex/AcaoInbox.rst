@@ -2,6 +2,7 @@
 AcaoInbox
 ##########
 Inner Class da classe WAInboxUser_ctl
+
 Assinatura
     public class AcaoInbox
 Expecificação
