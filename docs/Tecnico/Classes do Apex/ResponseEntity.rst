@@ -8,14 +8,14 @@ Assinatura
     public class ResponseEntity
       
 success
-˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+---------------
 Assinatura
     public Boolean success;
 Acao
     Cria uma variável tipo Boolean
       
 reason
-˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜
+---------------
 Assinatura
     public String reason;
 Acao
