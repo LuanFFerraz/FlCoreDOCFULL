@@ -24,7 +24,7 @@ Responsável pelo enfileiramento das mensagem com origem Empresa > Cliente
 Retorno
     O método manipula a variável singleQueue, criada dentro da classe
 Assinatura
-    public statis void doEnviarMensagens(Set<Id> pSetMensagem)
+    public static void doEnviarMensagens(Set<Id> pSetMensagem)
 Exemplo
       
    .. code-block:: apex
