@@ -33,3 +33,4 @@ Classes do apex constituintes da aplicação Whatsapp Core
    Tecnico/Classes do Apex/WAMessenger
    Tecnico/Classes do Apex/WAQrRequest
    Tecnico/Classes do Apex/WAQrView
+   Tecnico/Classes do Apex/FLSolicitarCodigo_ctl
