@@ -31,4 +31,5 @@ Exemplo
 
    .. code-block:: apex
 
-      FLSolicitarCodigo_ctl.ResponseEntity auxEntity = new FLSolicitarCodigo_ctl.ResponseEntity(false, "Hellow World");
+      FLSolicitarCodigo_ctl.ResponseEntity auxEntity = new FLSolicitarCodigo_ctl.ResponseEntity
+                                                                        (false, "Hellow World");
