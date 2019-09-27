@@ -76,9 +76,22 @@ registerNewNumber()
 Retorno
     
 Assinatura
-    private static void registerNewNumber(String pJsonRegisterNumber) {
-Exemplo
- 
+    private static void registerNewNumber(String pJsonRegisterNumber) 
+Exemplo 
+
+   .. code-block:: apex
+
+      SendWhatsappMessage.doRegistrarNovoNumero('55999999999', '55988888888', 'operadora', 'xxxx_xx@xxxx.com', 'xxx51465xx', '', '1');
+           
+             
+updateNewNumber()
+-----------------------
+
+Retorno
+    
+Assinatura
+    private static void updateNewNumber(String pJsonRegisterNumber) 
+Exemplo 
 
    .. code-block:: apex
 
