@@ -70,30 +70,29 @@ Exemplo
       
       SendWhatsappMessage.doAutenticarNumero('13', '55999999999', '');
              
-registerNewNumber()
+doVerificaNovoNumero()
 -----------------------
 
 Retorno
-    
+    Preenche o campo RespostaIntegracao__c, verifica as responses da integração e atualiza o Status 
 Assinatura
-    private static void registerNewNumber(String pJsonRegisterNumber) 
+    public static void doVerificaNovoNumero(String pNumero, String pCodigo)  
 Exemplo 
 
    .. code-block:: apex
 
-      SendWhatsappMessage.doRegistrarNovoNumero('55999999999', '55988888888', 'operadora', 'xxxx_xx@xxxx.com', 'xxx51465xx', '', '1');
-           
-             
-updateNewNumber()
+      SendWhatsappMessage.doVerificaNovoNumero('', '');
+                        
+getMensagemWaJson()
 -----------------------
 
 Retorno
-    
+    Monta um JSON com as informações da mensagem  
 Assinatura
-    private static void updateNewNumber(String pJsonRegisterNumber) 
+    public static String getMensagemWaJson(Set<Id> pSetId)   
 Exemplo 
 
    .. code-block:: apex
 
-      SendWhatsappMessage.doRegistrarNovoNumero('55999999999', '55988888888', 'operadora', 'xxxx_xx@xxxx.com', 'xxx51465xx', '', '1');
+      SendWhatsappMessage.getMensagemWaJson('a033i000004JZo3AAG');
            
