@@ -23,7 +23,7 @@ Exemplo
             Destino__c, 
             Origem__c, 
             Status__c 
-            FROM 
+      FROM 
             MensagemFalae__c]);
       List<MensagemFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       
