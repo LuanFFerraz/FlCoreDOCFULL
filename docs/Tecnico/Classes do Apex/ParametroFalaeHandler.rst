@@ -5,8 +5,7 @@ ParametroFalaeHandler
 executeTrigger()
 ----------------
 Assinatura
-  public static void executeTrigger(Map<Id, ParametroFalae__c> pMapOldRecord, List<ParametroFalae__c> pListRecord, 
-                          Boolean pBeforeInsert, Boolean pBeforeUpdate, Boolean pAfterInsert, Boolean pAfterUpdate)
+  public static void executeTrigger(Map<Id, ParametroFalae__c> pMapOldRecord, List<ParametroFalae__c> pListRecord, Boolean pBeforeInsert, Boolean pBeforeUpdate, Boolean pAfterInsert, Boolean pAfterUpdate)
 Ação
   Registra e atualiza os registro do Parâmetro Falae, tanto para Inpulso Web quanto para o Inpulso Mob. 
 Exemplo
