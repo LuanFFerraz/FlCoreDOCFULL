@@ -1,7 +1,7 @@
 ##########      
 AcaoInbox
 ##########
-Inner Class da classe WAInboxUser_ctl
+Inner Class da classe FLInboxUser_ctl
 
 Assinatura
     public class AcaoInbox
