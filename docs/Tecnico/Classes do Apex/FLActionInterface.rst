@@ -17,7 +17,7 @@ Exemplo
       Map<Id, MensagemFalae__c> mapResultMensagem = new Map<Id, MensagemFalae__c>([SELECT Id, Name, ConversaFalae__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemFalae__c]);
       List<ConversaFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       List<MensagemFalae__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
-      new WACoreExecutionAfter().onInicioConversa(lstChanged);
+      new FLCoreExecutionAfter().onInicioConversa(lstChanged);
       
 onFimConversa()
 ~~~~~~~~~~~~~~~~~~~~
@@ -34,7 +34,7 @@ Exemplo
       Map<Id, MensagemFalae__c> mapResultMensagem = new Map<Id, MensagemFalae__c>([SELECT Id, Name, ConversaFalae__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemFalae__c]);
       List<ConversaFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       List<MensagemFalae__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
-      new WACoreExecutionAfter().onFimConversa(lstChanged);
+      new FLCoreExecutionAfter().onFimConversa(lstChanged);
         
 onEntradaMensagem()
 ~~~~~~~~~~~~~~~~~~~~
@@ -51,7 +51,7 @@ Exemplo
       Map<Id, MensagemFalae__c> mapResultMensagem = new Map<Id, MensagemFalae__c>([SELECT Id, Name, ConversaFalae__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemFalae__c]);
       List<ConversaFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       List<MensagemFalae__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
-      new WACoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);      
+      new FLCoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);      
         
 onAtualizarMensagem()
 ~~~~~~~~~~~~~~~~~~~~
@@ -68,7 +68,7 @@ Exemplo
       Map<Id, MensagemFalae__c> mapResultMensagem = new Map<Id, MensagemFalae__c>([SELECT Id, Name, ConversaFalae__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemFalae__c]);
       List<ConversaFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       List<MensagemFalae__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
-      new WACoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);      
+      new FLCoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);      
         
 isDisabled()
 ~~~~~~~~~~~~~~~~~~~~
@@ -85,4 +85,4 @@ Exemplo
       Map<Id, MensagemFalae__c> mapResultMensagem = new Map<Id, MensagemFalae__c>([SELECT Id, Name, ConversaFalae__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemFalae__c]);
       List<ConversaFalae__c> lstChanged = mapResult.values().deepClone(true, true, true);
       List<MensagemFalae__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
-      new WACoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);    
+      new FLCoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);    
