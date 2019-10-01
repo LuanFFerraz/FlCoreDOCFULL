@@ -1,6 +1,7 @@
 ##########      
 AcaoInbox
 ##########
+
 Inner Class da classe FLInboxLead_ctl
 
 Assinatura
