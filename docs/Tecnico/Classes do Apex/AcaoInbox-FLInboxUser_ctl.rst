@@ -34,7 +34,7 @@ Exemplo
 
       AcaoInbox.AcaoInbox(new AcaoFalae__mdt[]{new AcaoFalae__mdt(
                                                                     TipoAcao__c = 'Entrada de Mensagem', 
-                                                                    ClasseApex__c = 'WACoreExecutionAfter', 
+                                                                    ClasseApex__c = 'FLCoreExecutionAfter', 
                                                                     Assincrono__c = true
                                                                 )}, 
                                                                 'a021U000007pg2FQAQ'
