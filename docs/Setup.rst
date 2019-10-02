@@ -178,7 +178,7 @@ Crie o site remoto para o WhatsappWeb conforme a tabela abaixo:
 Clique em Salvar.
 
     
-Configuracao de Periodicidade de Atualizacao do Inbox
+Configuração de Periodicidade de Atualização do Inbox
 -----------------------
 	
 A periodicidade de atualização das mensagens é de 30 segundos por padrão, porém é possível modificar.
