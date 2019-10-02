@@ -4,7 +4,7 @@ Metadados
 
 Parâmetro global
 ~~~~~~~~~~~~~~~~~~~~~~~~
-O Parâmetro global é o metadado responsável por configuraras instancias dos servidores, tanto Mob quanto Web, contendo os campos Rótulo, Nome de Parâmetro Global, Contexto e Atributte1.
+O Parâmetro global é o metadado responsável por configurar as instancias dos servidores, tanto Mob quanto Web, contendo os campos Rótulo, Nome de Parâmetro Global, Contexto e Atributte1.
 
 .. Tip:: 
 
