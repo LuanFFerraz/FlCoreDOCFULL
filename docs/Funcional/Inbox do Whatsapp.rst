@@ -125,7 +125,7 @@ Após a criação a Conta/Lead pode ser vinculada a Conversa
 
 Criação de Caso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Um caso pode ser aperto durante a conversa utilizando o botão de ações que se encontra no canto superior direito da conversa.
+Um caso pode ser aberto durante a conversa utilizando o botão de ações que se encontra no canto superior direito da conversa.
 
 .. figure:: Inbox14.png
     :width: 300px
