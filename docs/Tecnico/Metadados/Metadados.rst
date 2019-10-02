@@ -17,7 +17,7 @@ O Parâmetro global é o metadado responsável por configurar as instancias dos 
     +---------------------------+------------------------------------------------------------+
     | Nome do Parâmetro Global  | Nome da API                                                |
     +---------------------------+------------------------------------------------------------+
-    | Atributte1                | Link da aplicação Web                                      |
+    | Attribute1                | Link da aplicação Web                                      |
     +---------------------------+------------------------------------------------------------+
 
 Periodicidade de Atualização
