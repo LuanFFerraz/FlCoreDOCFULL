@@ -4,14 +4,14 @@ Metadados
 
 Parâmetro global
 ~~~~~~~~~~~~~~~~~~~~~~~~
-O Parâmetro global é o metadado responsável por configurar as instancias dos servidores, tanto Mob quanto Web, contendo os campos Rótulo, Nome de Parâmetro Global, Contexto e Atributte1.
+O Parâmetro global é o metadado responsável por configurar as instâncias dos servidores, tanto Mob quanto Web, contendo os campos Rótulo, Nome de Parâmetro Global, Contexto e Attribute1.
 
 .. Tip:: 
 
     +---------------------------+------------------------------------------------------------+
     | Nome                      | Descrição                                                  |
     +===========================+============================================================+
-    | Rótulo                    | Nome da Instancia                                          |
+    | Rótulo                    | Nome da Instância                                          |
     +---------------------------+------------------------------------------------------------+
     | Contexto                  | Forma de distinção entre os contextos disponíveis          |
     +---------------------------+------------------------------------------------------------+
@@ -29,7 +29,7 @@ O metadado Periodicidade de Atualização possui um registro chamado "Registro �
     +--------------------------------------+------------------------------------------------------------+
     | Nome                                 | Descrição                                                  |
     +======================================+============================================================+
-    | Rótulo                               | Nome da Instancia                                          |
+    | Rótulo                               | Nome da Instância                                          |
     +--------------------------------------+------------------------------------------------------------+
     | Nome de Periodicidade de Atualização | Nome da API                                                |
     +--------------------------------------+------------------------------------------------------------+
