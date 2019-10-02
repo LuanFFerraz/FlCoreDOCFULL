@@ -97,7 +97,7 @@ O FLInboxContact é componente utilizado no **Contact Layout - Sample Falae** do
 
 FLInboxUser
 ---------
-O FLInboxUser é uma guia utilizada na aplicação do Falae para o Salesforce Classic. Através dessa guia é póssivel utilizar as funções do inbox na versão classic do Salesforce.
+O FLInboxUser é uma guia utilizada na aplicação do Falae para o Salesforce Classic. Através dessa guia é possível utilizar as funções do inbox na versão classic do Salesforce.
 
 .. image:: paginasVisualforce10.png
     :width: 300px
