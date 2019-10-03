@@ -1,0 +1,34 @@
+#################
+FLInputLookup
+#################
+
+Atributos:
+~~~~~~~~~~~~
+
++------------------------+-----------------------+
+|  name                  | Tipo                  |
++========================+=======================+
+| selectedRecord         | sObject               |
++------------------------+-----------------------+
+| objectAPIName          | string                |
++------------------------+-----------------------+
+| objectLabelName        | string                |
++------------------------+-----------------------+
+| IconName               | string                |
++------------------------+-----------------------+
+| label                  | string                |
++------------------------+-----------------------+
+| isClassic              | Boolean               |
++------------------------+-----------------------+
+
+Chamada
+~~~~~~~~~~
+
+<aura:attribute name="lead" type="Lead"/>
+
+<flcore:FLInputLookup isClassic="false" 
+                      objectAPIName="Lead" 
+                      objectLabelName="Lead" 
+                      IconName="standard:lead" 
+                      selectedRecord="{!v.lead}" 
+                      label=""  />
