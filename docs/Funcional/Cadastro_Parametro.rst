@@ -37,7 +37,7 @@ Receber Status de Conectividade (Ping): quando ativo, a seção "Monitoramento d
 
 Usuário Salesforce: seu usuário de login no salesforce. 
 
-Senha Salesforce: sua senha mais a chave de segurança. 
+Senha Salesforce: Senha usada para acessar o SalesForce mais a chave de segurança. 
 Clique em Salvar.
 
 .. Hint:: Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
