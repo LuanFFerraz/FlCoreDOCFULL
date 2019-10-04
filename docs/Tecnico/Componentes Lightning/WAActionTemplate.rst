@@ -1,5 +1,5 @@
 #################
-WAActionTemplate
+FLActionTemplate
 #################
 Atributos:
 ~~~~~~~~~~~~
@@ -11,7 +11,7 @@ Atributos:
 +------------------------+-----------------------+-------------+
 | title                  | String                | false       | 
 +------------------------+-----------------------+-------------+
-| conversaWhatsapp       | conversaWhatsapp__c   | false       | 
+| conversafalae          |    conversafalae__c   | false       | 
 +------------------------+-----------------------+-------------+
 
 Function
@@ -25,7 +25,7 @@ Exemplo:
 ~~~~~~~~
    .. code-block:: html
 
-      <aura:component extends="whats:WAActionTemplate" >
+      <aura:component extends="LActionTemplate" >
          <!-- Header -->
          <aura:set attribute="title" value="Relacionar Lead/Contato " />
          <!-- Footer -->
@@ -39,8 +39,8 @@ Exemplo:
              <lightning:layoutItem flexibility="auto" size="6" >
                  <lightning:recordEditForm aura:id="recordViewForm"
                      onsubmit="{!c.close}"
-                     recordId="{!v.conversaWhatsapp.whats__ContatoWhatsapp__c}"
-                     objectApiName="whats__ContatoWhatsapp__c">
+                     recordId="{!v.conversafalae.whats__Contatofalae__c}"
+                     objectApiName="whats__Contatofalae__c">
                      <lightning:inputField aura:id="lead"
                          fieldName="whats__Lead__c"/>
                  </lightning:recordEditForm>
