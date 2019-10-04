@@ -8,15 +8,15 @@ Atributos:
 +------------------------+-----------------------+
 |  name                  | Tipo                  |
 +========================+=======================+
-| mapNavigation          | Aura.Component[]      |
+| mapNavigation          | Boolean               |
 +------------------------+-----------------------+
 | preloadActionId        | String                |
 +------------------------+-----------------------+
-| idConversaFalae        | conversaWhatsapp__c   |
+| conversaFalae          | ConversaFalae__c      |
 +------------------------+-----------------------+
-| isVisualforceView      | conversaWhatsapp__c   |
+| isVisualforceView      | Boolean               |
 +------------------------+-----------------------+
-| disabled               | conversaWhatsapp__c   |
+| disabled               | Boolean               |
 +------------------------+-----------------------+
 
 
@@ -24,8 +24,8 @@ Chamada
 ~~~~~~~~~~
 
 <c:FLChat aura:id="conversas"
-                                  mapNavigation="{!v.mapNavigation}"
+                                  mapNavigation="true"
                                   preloadActionId="{!((iConversa.selecionado == true) ? v.preloadActionId : '')}"
-                                  idConversaFalae="{!iConversa.Id}"
-                                  isVisualforceView="{!v.isVisualforceView}"
-                                  disabled="{!iParametro.paramFl.flcore__Ativo__c != true}"/>
+                                  idConversaFalae="a023i000004qAnEAAU"
+                                  isVisualforceView="true"
+                                  disabled="true"/>
