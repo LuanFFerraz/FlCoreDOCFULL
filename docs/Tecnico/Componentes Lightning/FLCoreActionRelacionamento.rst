@@ -19,37 +19,18 @@ Atributos:
 | tipoRelacao            | Map[]                 | false       | 
 +------------------------+-----------------------+-------------+
 
-Function
-~~~~~~~~~~
-close()
-
-Método utilizado para fechamento da modal.
-
 
 Exemplo:
 ~~~~~~~~
    .. code-block:: html
 
-      <aura:component extends="FLActionTemplate" >
-      <!-- Header -->
-      <aura:set attribute="title" value="Relacionar Lead/Contato " />
-      <!-- Footer -->
-      <aura:set attribute="footer">
-       <lightning:button variant="Neutral" label="Cancel" title="Cancel" onclick="{! c.close }" disabled="{!v.blockButtons}"/> 
-       <lightning:button variant="brand" label="Salvar" title="Save" onclick="{! c.handleSave }" disabled="{!v.blockButtons}"/>
-      </aura:set>
-
-       <!-- Content -->
-       <lightning:layout>
-           <!-- LookupField -->
-           <lightning:layoutItem flexibility="auto" size="6" >
-               <lightning:recordEditForm aura:id="recordViewForm"
-                   onsubmit="{!c.close}"
-                   recordId="{!v.conversafalae.whats__Contatofalae__c}"
-                   objectApiName="whats__Contatofalae__c">
-                   <lightning:inputField aura:id="lead"
-                       fieldName="whats__Lead__c"/>
-               </lightning:recordEditForm>
-           </lightning:layoutItem>
-       </lightning:layout>
-    </aura:component>
+      openModal : function(component, event, helper, acaoChat) {
+         var componentName = "" + acaoChat.action.NamespacePrefix + ":" + acaoChat.action.flcore__ComponenteLightning__c;
+        $A.createComponent( componentName, {
+                'actionId' : (component.get("v.mapNavigation") ? acaoChat.action.Id : ""),
+                'conversaFalae' : component.get("v.conversaFalae"),
+                'isVisualforceView' : component.get("v.isVisualforceView"),
+                'isClassic' : component.get("v.isClassic")
+            }
+         );
+      }
