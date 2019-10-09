@@ -21,6 +21,7 @@ Atributos:
 Exemplo:
 ~~~~~~~~
    .. code-block:: html
+      
       <script>
         $Lightning.use("flcore:Falae", function() {
             $Lightning.createComponent(
