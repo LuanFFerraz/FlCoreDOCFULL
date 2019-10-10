@@ -35,3 +35,17 @@ Classes do apex constituintes da aplicação Whatsapp Core
    Tecnico/Classes do Apex/FLInboxLead_ctl.rst
    Tecnico/Classes do Apex/FLInboxUser_ctl.rst
    Tecnico/Classes do Apex/FLInputLookup_ctl.rst
+   Tecnico/Classes do Apex/FLQrRequest_ctl.rst
+   Tecnico/Classes do Apex/FLQrView_ctl.rst
+   Tecnico/Classes do Apex/FLSolicitarCodigo_ctl.rst
+   Tecnico/Classes do Apex/FLWhatsappMobService.rst
+   Tecnico/Classes do Apex/FLWhatsappWebService.rst
+   Tecnico/Classes do Apex/LeadHandler.rst
+   Tecnico/Classes do Apex/MensagemFalaeHandler.rst
+   Tecnico/Classes do Apex/ParametroFalaeHandler.rst
+   Tecnico/Classes do Apex/ParametroFalaeWIMHandler.rst
+   Tecnico/Classes do Apex/ParametroFalaeWIWHandler.rst
+   Tecnico/Classes do Apex/ParametroInboxEntity.rst
+   Tecnico/Classes do Apex/RegisterNumberEntity-Web.rst
+   Tecnico/Classes do Apex/RegisterNumberEntity.rst
+   Tecnico/Classes do Apex/ResponseEntity.rst
