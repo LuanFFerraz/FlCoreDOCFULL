@@ -53,3 +53,5 @@ Quando estiver no Status "Registrado" recarregue a página para aparecer o QR Co
     :align: center
     
     QR Code para ser escaneado.
+    
+.. WARNING:: Caso o usuário saia da sessão pelo aplicativo do Whatsapp no celular deve-se novamente solicitar o QR Code através do SalesForce para que uma nova sessão seja iniciada
