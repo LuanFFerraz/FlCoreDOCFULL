@@ -84,3 +84,5 @@ Selecione o tipo de recebimento via SMS ou via Voz, após selecionado o tipo, cl
     :align: center
     
     Modal selecionar o tipo que recebimento do código, podendo ser por SMS ou Voz.
+    
+.. WARNING:: **Um número não pode deve ser cadastrado no Canal Mob e no Canal Web ao mesmo tempo**
