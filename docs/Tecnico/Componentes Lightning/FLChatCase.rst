@@ -22,6 +22,7 @@ Exemplo
 ~~~~~~~~~~
 
 .. code-block:: html
+
   <aura:attribute name="casoParam" type="Case" />
   
   <flcore:FLChatCase height="800" caso="casoParam" />
