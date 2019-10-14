@@ -2,7 +2,7 @@
 Layouts de exemplo do Falae
 #################
 
-Alguns objetos apresentam layouts de exemplo disponíveis após a instalacao do pacote, sendo estes layouts de exemplos formas de mostrar a utilizacao de recursos destes objetos, sendo eles Caso, Contato e Lead.
+Alguns objetos apresentam layouts de exemplo disponíveis após a instalação do pacote, sendo estes layouts de exemplos formas de mostrar a utilização de recursos destes objetos, sendo eles Caso, Contato e Lead.
 
 Caso -> Case Layout - Sample Falae
 -----------------------
