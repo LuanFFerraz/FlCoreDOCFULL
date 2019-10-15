@@ -17,6 +17,7 @@ Uma conversa pode ser iniciada através do Falae de direção Empresa para Clien
     Botão de Iniciar Conversa
 
 A conversa pode ser aberta para um Contato Falae, um Contato ou um Lead.
+
 Ao clicar no botão, um modal será aberto onde poderá ser selecionado a qual objeto(Lead, Contato, Contato Falae) a conversa será relacionada inicialmente e escolhendo qual o registro será escolhido para iniciar a conversa.
 
 .. figure:: Inbox10.png
