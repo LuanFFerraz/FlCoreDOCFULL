@@ -1,6 +1,11 @@
 #################
 FLModalTemplate
 #################
+Funcionalidade
+~~~~~~~~~~
+
+O componente FLModalTemplate serve de template para o modal das ações do Falae.
+
 
 Atributos:
 ~~~~~~~~~~~~
