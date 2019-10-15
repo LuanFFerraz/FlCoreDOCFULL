@@ -5,7 +5,7 @@ Layout de Contato do Falae
 Na seção de layout do Contato do Falae encontramos um layout padrão. 
 O layout padrão do Contato do Falae apresenta os campos e botões abaixo abaixo:
 
-.. image:: layout5.png
+.. image:: Layout5.png
     :width: 700px
     :alt: Solidity logo
     :align: center
