@@ -1,6 +1,10 @@
 #################
 FLChat
 #################
+Funcionamento:
+~~~~~~~~~~~~
+
+Template do chat do Falae
 
 Atributos:
 ~~~~~~~~~~~~
