@@ -2,6 +2,12 @@
 FLInboxContact
 #################
 
+Funcionalidade
+~~~~~~~~~~
+
+O componente FLInboxContact serve para mostrar o modal de relacionamento de um Contato Falae com um Contato.
+
+
 Atributos:
 ~~~~~~~~~~~~
 
