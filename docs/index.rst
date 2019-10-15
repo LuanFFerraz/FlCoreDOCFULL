@@ -29,17 +29,9 @@ Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documen
     Funcional/Cadastro_Parametro_Mob
     Funcional/Inbox do Whatsapp
     Administrador/Sample Layouts
+    Administrativo.rst
    
-   
-.. toctree::
-    :maxdepth: 2
-    :caption: Administrativo
-    
-    
-    Administrador/Process Builder/Process Builder
-    Tecnico/Metadados/Metadados
-    Administrador/PaginasVisualforce/Páginas do Visualforce
-    
+
 
 .. toctree::
     :maxdepth: 2
