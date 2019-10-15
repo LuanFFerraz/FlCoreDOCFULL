@@ -10,3 +10,4 @@ Indice do conteúdo voltado a parfis com permissão de administrador do sistema,
    Administrador/Process Builder/Process Builder
    Tecnico/Metadados/Metadados
    Administrador/PaginasVisualforce/Páginas do Visualforce
+   Administrador/Sample Layouts
