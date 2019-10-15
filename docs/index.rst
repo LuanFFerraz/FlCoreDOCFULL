@@ -28,7 +28,6 @@ Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documen
     Funcional/Cadastro_Parametro
     Funcional/Cadastro_Parametro_Mob
     Funcional/Inbox do Whatsapp
-    Administrador/Sample Layouts
     Administrativo.rst
    
 
