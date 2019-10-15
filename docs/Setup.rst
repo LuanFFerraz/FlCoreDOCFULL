@@ -8,7 +8,7 @@ O objetivo deste documento é apontar os requisitos necessários e o passo-a-pas
 Registro de Domínio para a Organização
 -----------------------
 
-Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
+Para que o pacote possa ser baixado primariamente o usuário deve **possuir uma organização** no SalesForce que possua o **domínio cadastrado**. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
 
 .. figure:: instalacao4.png
     :width: 250px
@@ -17,7 +17,7 @@ Para que o pacote possa ser baixado primariamente o usuário deve possuir uma or
     
     Barra de pesquisa das configurações
 
-Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
+Caso não possua domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo. É necessário pontuar que um nome de domínio utilizado para uma organização **não pode ser utilizado novamente** para qualquer outra org.
 
 .. figure:: instalacao6.png
     :width: 620px
@@ -26,7 +26,7 @@ Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e 
     
     Registro de domínio
 
-Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. 
+O usuário deverá registrar o domínio após a confirmação da validação. Com a conclusão do registro, o SalesForce pedirá para que logue novamente. 
 
 Após logar vá para a tela do "Meu domínio" novamente e clique em "Efetuar login".
 
