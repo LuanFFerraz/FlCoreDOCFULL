@@ -5,8 +5,8 @@ Indice do conteúdo voltado a parfis com permissão de administrador do sistema,
 
 .. toctree::
    :maxdepth: 2
-   :caption: Classes
+   :caption: Informações
       
-    Administrador/Process Builder/Process Builder
-    Tecnico/Metadados/Metadados
-    Administrador/PaginasVisualforce/Páginas do Visualforce
+   Administrador/Process Builder/Process Builder
+   Tecnico/Metadados/Metadados
+   Administrador/PaginasVisualforce/Páginas do Visualforce
