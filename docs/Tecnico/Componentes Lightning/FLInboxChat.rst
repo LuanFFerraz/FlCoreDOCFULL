@@ -2,6 +2,12 @@
 FLInboxChat
 #################
 
+Funcionalidade
+~~~~~~~~~~
+
+O componente FLInboxChat serve para mostrar a o inbox das conversas do chat.
+
+
 Atributos:
 ~~~~~~~~~~~~
 
