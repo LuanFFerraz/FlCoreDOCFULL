@@ -1,6 +1,11 @@
 #################
 FLInboxLead
 #################
+Funcionalidade
+~~~~~~~~~~
+
+O componente FLInboxUser serve para mostrar a relação da Conversa Falae com um Lead.
+
 
 Atributos:
 ~~~~~~~~~~~~
