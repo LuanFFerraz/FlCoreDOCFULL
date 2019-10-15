@@ -11,3 +11,4 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
    Componentes Lightning.rst
    layouts.rst
    Tecnico/Acionadores
+   Administrador/Eventos de Plataforma/Eventos de Plataforma
