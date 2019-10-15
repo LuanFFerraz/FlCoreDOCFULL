@@ -21,3 +21,6 @@ Campos com um cadeado são campos de apenas leitura. Campos marcados com asteris
     -  Usuário Salesforce: seu usuário de login no salesforce.
     -  Senha Salesforce: sua senha mais a chave de segurança.
     -  QRCode: QRCode a ser escaneado para conectar o celular a aplicação
+    -  Canal de Comunicação: informa qual o canal de comunicação está sendo utilizado neste parâmetro. Ex.: Whatsapp
+    -  API de Comunicação: informa qual a API de comunicação está sendo utilizado. Ex.: Inpulso Web
+    -  Receber Confirmação de Leitura: configura a confirmação de visualização da mensagem por parte do cliente
