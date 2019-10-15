@@ -1,6 +1,10 @@
 #################
 FLInboxUser
 #################
+Funcionalidade
+~~~~~~~~~~
+
+O componente FLInboxUser serve para mostrar serve pra pegar a instancia do usuario.
 
 Atributos:
 ~~~~~~~~~~~~
