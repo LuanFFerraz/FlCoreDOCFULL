@@ -56,7 +56,7 @@ Em caso de procedimento interno o link para download pode ser encontrado atravé
 
 E procurar por "Gerenciador de pacote". No Gerenciador de pacote é possível verificar as versões da aplicação e seu link de download
 
-O download do pacote para a sua organização deve ser realizado através do link abaixo
+**O download do pacote para a sua organização deve ser realizado através do link abaixo**
          
          https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000002WaOv
          
@@ -90,7 +90,7 @@ Depois da confirmação das opções anteriores o download começará normalment
 Configuração de Endpoints do Servidor
 -----------------------
 
-Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato conosco.
+Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. 
 
 Com a url que a INPULSO disponibilizar terá que inserir no Parâmetro Global e no Site Remoto.
 
@@ -106,9 +106,9 @@ Entre na Configuração
     
     Seleção de Configurações
     
-Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
-Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
-Clique em Novo.
+Escreva **Metadados** na busca rápida e clique em **Tipos de metadados personalizados**.
+Clique em **Gerenciar registros** do lado esquerdo do Parâmetro Global.
+Clique em **Novo**.
 Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
 
 +----------------------------+--------------------------------------+
@@ -123,7 +123,7 @@ Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
 | Attribute 1                | https://sf-yowsup.herokuapp.com      | 
 +----------------------------+--------------------------------------+
 
-Clique em Salvar e criar.
+Clique em **Salvar e criar**.
 Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 
 +----------------------------+------------------------------------------+
@@ -138,7 +138,7 @@ Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 | Attribute 1                | https://dev-dot-demowhatsapp.appspot.com | 
 +----------------------------+------------------------------------------+
 
-Clique em Salvar.
+Clique em **Salvar**.
 
 Site Remoto
 ~~~~~~~~~~~~
@@ -152,8 +152,8 @@ Entre na Configuração
     
     Seleção de Configurações
     
-Escreva site na busca rápida e clique em Configurações do site remoto.
-Clique em Novo site remoto.
+Escreva **Site Remoto** na busca rápida e clique em **Configurações do site remoto**.
+Clique em **Novo site remoto**.
 Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
 
 +----------------------------+------------------------------------------+
@@ -194,8 +194,8 @@ Entre na Configuração
     
     Seleção de Configurações
 
-Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
-Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização.
+Escreva **Metadados** na busca rápida e clique em **Tipos de metadados personalizados**.
+Clique em **Gerenciar registros** do lado esquerdo do **Periodicidade de Atualização**.
 Clique em Editar do lado esquerdo do Registro único.
 Aqui temos dois tempos:
 
@@ -212,7 +212,7 @@ Aqui temos dois tempos:
 Desinstalação de Pacote
 -----------------------
 
-É possível desinstalar o Falae da sua organização, mas para isso é necessário a desinstalação manual de algumas dependencias do pacote. Começaremos com a desativação dos Process Builders. Para encontralos basta ir em Configuração e procurar por "Process Builder" na barra de pesquisa:
+É possível desinstalar o Falae da sua organização, mas para isso **é necessário a desinstalação manual** de algumas dependencias do pacote. Começaremos com a **desativação dos Process Builders**. Para encontralos basta ir em Configuração e procurar por "Process Builder" na barra de pesquisa:
  
 .. figure:: Desinstalar4.png
     :width: 200px
@@ -221,7 +221,7 @@ Desinstalação de Pacote
     
     Process Builder
 
-Após encontra-los, basta clickar na seta para expandir as opções e selecionar "Desativar". Para que a desinstalação tenha sucesso é necessário que todos os Process Builders sejam desativdos.
+Após encontra-los, basta clickar na seta para expandir as opções e selecionar "Desativar". Para que a desinstalação tenha sucesso é necessário que **todos os Process Builders** sejam desativdos.
 
 .. figure:: Desinstalar5.png
     :width: 950px
@@ -230,7 +230,7 @@ Após encontra-los, basta clickar na seta para expandir as opções e selecionar
     
     Desativação do Process Builder
     
-Será necessário também remover o metadado Parâmetro Global. O Parâmetro Global pode ser encontrado pesquisando por "Metadado" na barra de pesquisa na Configuração
+Será necessário também **remover o metadado Parâmetro Global**. O Parâmetro Global pode ser encontrado pesquisando por "Metadado" na barra de pesquisa na Configuração
 
 .. figure:: Desinstalar6.png
     :width: 250px
@@ -257,7 +257,7 @@ Ao selecionar a opção, dois registros serão mostrados em tela, ambos precisam
     
     Instancias do servidor Mob e Web
 
-Após a realização da exclusão do Parâmetro Global, será necessária a exclusão dos dados do Site Remoto
+Após a realização da exclusão do Parâmetro Global, será necessária a **exclusão dos dados do Site Remoto**
 
 .. figure:: Desinstalar9.png
     :width: 250px
@@ -266,7 +266,7 @@ Após a realização da exclusão do Parâmetro Global, será necessária a excl
     
     Site Remoto
         
-No site remoto deve-se exclui ambos os registros, WhatsappMob e WhatsappWeb.
+No site remoto deve-se exclui **ambos os registros**, WhatsappMob e WhatsappWeb.
 
 .. figure:: Desinstalar10.png
     :width: 850px
@@ -302,7 +302,7 @@ Podem também haver Layouts implantados e estes também precisam ser removidos, 
     
     Layouts Customizados nos Objetos
  
-Depois da remoção das dependencias a desinstalação pode ser realizada através dos Pacotes Instalados e para acessa-lo basta entrar em Configuração e procurar por "Pacotes Instalados"
+Depois da remoção das dependencias a desinstalação pode ser realizada através dos **Pacotes Instalados** e para acessa-lo basta entrar em Configuração e procurar por "Pacotes Instalados"
 
 .. figure:: Desinstalar1.png
     :width: 250px
