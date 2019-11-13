@@ -1,11 +1,6 @@
 #################
 FLInputLookupResult
 #################
-Funcionalidade
-~~~~~~~~~~
-
-O componente FLInboxUser serve para mostrar a barra de pesquisa que reside dentro do modal para o modo de exibição Classic.
-
 
 Atributos:
 ~~~~~~~~~~~~

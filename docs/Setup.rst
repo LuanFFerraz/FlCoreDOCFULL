@@ -8,7 +8,7 @@ O objetivo deste documento é apontar os requisitos necessários e o passo-a-pas
 Registro de Domínio para a Organização
 -----------------------
 
-Para que o pacote possa ser baixado primariamente o usuário deve **possuir uma organização** no SalesForce que possua o **domínio cadastrado**. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
+Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
 
 .. figure:: instalacao4.png
     :width: 250px
@@ -17,7 +17,7 @@ Para que o pacote possa ser baixado primariamente o usuário deve **possuir uma 
     
     Barra de pesquisa das configurações
 
-Caso não possua domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo. É necessário pontuar que um nome de domínio utilizado para uma organização **não pode ser utilizado novamente** para qualquer outra org.
+Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
 
 .. figure:: instalacao6.png
     :width: 620px
@@ -26,7 +26,7 @@ Caso não possua domínio cadastrado, deve-se escolher um nome para o domínio e
     
     Registro de domínio
 
-O usuário deverá registrar o domínio após a confirmação da validação. Com a conclusão do registro, o SalesForce pedirá para que logue novamente. 
+Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. 
 
 Após logar vá para a tela do "Meu domínio" novamente e clique em "Efetuar login".
 
@@ -56,7 +56,7 @@ Em caso de procedimento interno o link para download pode ser encontrado atravé
 
 E procurar por "Gerenciador de pacote". No Gerenciador de pacote é possível verificar as versões da aplicação e seu link de download
 
-**O download do pacote para a sua organização deve ser realizado através do link abaixo**
+O download do pacote para a sua organização deve ser realizado através do link abaixo
          
          https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000002WaOv
          
@@ -90,7 +90,7 @@ Depois da confirmação das opções anteriores o download começará normalment
 Configuração de Endpoints do Servidor
 -----------------------
 
-Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. 
+Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato conosco.
 
 Com a url que a INPULSO disponibilizar terá que inserir no Parâmetro Global e no Site Remoto.
 
@@ -106,9 +106,9 @@ Entre na Configuração
     
     Seleção de Configurações
     
-Escreva **Metadados** na busca rápida e clique em **Tipos de metadados personalizados**.
-Clique em **Gerenciar registros** do lado esquerdo do Parâmetro Global.
-Clique em **Novo**.
+Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
+Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
+Clique em Novo.
 Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
 
 +----------------------------+--------------------------------------+
@@ -123,7 +123,7 @@ Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
 | Attribute 1                | https://sf-yowsup.herokuapp.com      | 
 +----------------------------+--------------------------------------+
 
-Clique em **Salvar e criar**.
+Clique em Salvar e criar.
 Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 
 +----------------------------+------------------------------------------+
@@ -138,7 +138,7 @@ Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 | Attribute 1                | https://dev-dot-demowhatsapp.appspot.com | 
 +----------------------------+------------------------------------------+
 
-Clique em **Salvar**.
+Clique em Salvar.
 
 Site Remoto
 ~~~~~~~~~~~~
@@ -152,8 +152,8 @@ Entre na Configuração
     
     Seleção de Configurações
     
-Escreva **Site Remoto** na busca rápida e clique em **Configurações do site remoto**.
-Clique em **Novo site remoto**.
+Escreva site na busca rápida e clique em Configurações do site remoto.
+Clique em Novo site remoto.
 Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
 
 +----------------------------+------------------------------------------+
@@ -194,8 +194,8 @@ Entre na Configuração
     
     Seleção de Configurações
 
-Escreva **Metadados** na busca rápida e clique em **Tipos de metadados personalizados**.
-Clique em **Gerenciar registros** do lado esquerdo do **Periodicidade de Atualização**.
+Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
+Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização.
 Clique em Editar do lado esquerdo do Registro único.
 Aqui temos dois tempos:
 
@@ -209,124 +209,4 @@ Aqui temos dois tempos:
 .. Note:: Inbox do Falae: é o tempo em milissegundos da atualização realizadas no "Inbox do Falae" do "APP Falae".
    Chat do Falae: é o tempo em milissegundos da atualização do componente Chat para Lead/Contato.
 
-Desinstalação de Pacote
------------------------
 
-É possível desinstalar o Falae da sua organização, mas para isso **é necessário a desinstalação manual** de algumas dependencias do pacote. Começaremos com a **desativação dos Process Builders**. Para encontralos basta ir em Configuração e procurar por "Process Builder" na barra de pesquisa:
- 
-.. figure:: Desinstalar4.png
-    :width: 200px
-    :alt: Solidity logo
-    :align: center
-    
-    Process Builder
-
-Após encontra-los, basta clickar na seta para expandir as opções e selecionar "Desativar". Para que a desinstalação tenha sucesso é necessário que **todos os Process Builders** sejam desativdos.
-
-.. figure:: Desinstalar5.png
-    :width: 950px
-    :alt: Solidity logo
-    :align: center
-    
-    Desativação do Process Builder
-    
-Será necessário também **remover o metadado Parâmetro Global**. O Parâmetro Global pode ser encontrado pesquisando por "Metadado" na barra de pesquisa na Configuração
-
-.. figure:: Desinstalar6.png
-    :width: 250px
-    :alt: Solidity logo
-    :align: center
-    
-    Metadados "Gerenciar Registros" ao lado do Parâmetro Global. 
-    
-Nos metadados, deve ser selecionado o botão "Gerenciar Registros" que se encontra ao lado do metadado Parâmetro Global     
-    
-.. figure:: Desinstalar7.png
-    :width: 400px
-    :alt: Solidity logo
-    :align: center
-    
-    Gerenciar Registros do Parâmetro Global
-    
-Ao selecionar a opção, dois registros serão mostrados em tela, ambos precisam ser excluídos para que a desinstalação seja possível
-
-.. figure:: Desinstalar8.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Instancias do servidor Mob e Web
-
-Após a realização da exclusão do Parâmetro Global, será necessária a **exclusão dos dados do Site Remoto**
-
-.. figure:: Desinstalar9.png
-    :width: 250px
-    :alt: Solidity logo
-    :align: center
-    
-    Site Remoto
-        
-No site remoto deve-se exclui **ambos os registros**, WhatsappMob e WhatsappWeb.
-
-.. figure:: Desinstalar10.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Exclusão do Site Remoto
- 
-Estes são os padrões, entretanto pode-se encontrar algumas outras dependencias do pacote caso o mesmo já tenha sido customizado, como por exemplo um campo do falae sendo utilizado em um Layout padrão
-
-.. figure:: Desinstalar11.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Campo do Falae no Objeto Caso
-    
-Os campos são facilmente removidos arrastando-os de volta para a barra superior    
-  
-.. figure:: Desinstalar12.png
-    :width: 500px
-    :alt: Solidity logo
-    :align: center
-    
-    Remoção do campo
- 
-Podem também haver Layouts implantados e estes também precisam ser removidos, para remove-los é necessário acessar o Objeto através do Gerenciador de Objetos e ir na aba de Layout 
- 
-.. figure:: Desinstalar13.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Layouts Customizados nos Objetos
- 
-Depois da remoção das dependencias a desinstalação pode ser realizada através dos **Pacotes Instalados** e para acessa-lo basta entrar em Configuração e procurar por "Pacotes Instalados"
-
-.. figure:: Desinstalar1.png
-    :width: 250px
-    :alt: Solidity logo
-    :align: center
-    
-    Pacotes Instalados
-
-No Pacotes Instalados é possível visualizar todos os pacotes instalados em sua organização, além de poder desinstalados. Para a desinstalação é necessário selecionar a ação "Desinstalar"
-
-.. figure:: Desinstalar2.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Desinstalação
-    
-No final da página será necessário marcar a opção confirmando que deseja desinstalar permanentemente os componentes e clickar no botão "Desinstalar"
-
-.. figure:: Desinstalar3.png
-    :width: 850px
-    :alt: Solidity logo
-    :align: center
-    
-    Confirmação da Desinstalação
-    
-Ao confirmar, a desinstalação do Falae será iniciada.

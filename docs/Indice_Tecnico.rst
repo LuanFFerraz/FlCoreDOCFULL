@@ -10,5 +10,3 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
    Classes do Apex.rst
    Componentes Lightning.rst
    layouts.rst
-   Tecnico/Acionadores
-   Administrador/Eventos de Plataforma/Eventos de Plataforma

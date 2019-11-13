@@ -1,11 +1,6 @@
 #################
 FLInboxConversa
 #################
-Funcionalidade
-~~~~~~~~~~
-
-O componente FLInboxConversa serve para mostrar os items do Inbox, as conversas dos contatos Falae(barra lateral).
-
 
 Atributos:
 ~~~~~~~~~~~~

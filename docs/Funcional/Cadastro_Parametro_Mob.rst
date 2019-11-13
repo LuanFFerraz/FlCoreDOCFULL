@@ -84,7 +84,3 @@ Selecione o tipo de recebimento via SMS ou via Voz, após selecionado o tipo, cl
     :align: center
     
     Modal selecionar o tipo que recebimento do código, podendo ser por SMS ou Voz.
-    
-.. WARNING:: **Um número não pode deve ser cadastrado no Canal Mob e no Canal Web ao mesmo tempo**
-
-.. WARNING:: **Para a utilização do Whatsapp Mob sem que não ocorra nenhum bloqueio do chip será necessário "esquentar a conver" mandando algumas mensagens para algum número através do Whatsapp instalado em algum celular normal**

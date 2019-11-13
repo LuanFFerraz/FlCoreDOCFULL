@@ -2,12 +2,6 @@
 FLChatCase
 #################
 
-Funcionalidade
-~~~~~~~~~~
-
-O componente FLChatCase serve para mostrar a conversa relacionada ao caso enviado por parâmetro.
-
-
 Atributos:
 ~~~~~~~~~~~~
 
@@ -19,6 +13,10 @@ Atributos:
 | caso                   | Case                  |
 +------------------------+-----------------------+
 
+Funcionalidade
+~~~~~~~~~~
+
+O componente **FLChatCase** serve para mostrar a conversa relacionada ao caso enviado por parâmetro.
 
 Exemplo
 ~~~~~~~~~~

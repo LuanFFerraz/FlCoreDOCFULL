@@ -1,10 +1,6 @@
 #################
 FLSolicitarCodigo
 #################
-Funcionalidade
-~~~~~~~~~~
-
-O componente FLInboxUser serve para Modal de solicitação de código para a API Mob.
 
 Atributos:
 ~~~~~~~~~~~~

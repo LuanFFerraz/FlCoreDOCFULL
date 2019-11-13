@@ -1,11 +1,6 @@
 #################
 FLActionTemplate
 #################
-Funcionamento:
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Template das ações do Falae
-
 Atributos:
 ~~~~~~~~~~~~
 
@@ -18,6 +13,12 @@ Atributos:
 +------------------------+-----------------------+-------------+
 | conversafalae          |    conversafalae__c   | false       | 
 +------------------------+-----------------------+-------------+
+
+Function
+~~~~~~~~~~
+close()
+
+Método utilizado para fechamento da modal.
 
 
 Exemplo:

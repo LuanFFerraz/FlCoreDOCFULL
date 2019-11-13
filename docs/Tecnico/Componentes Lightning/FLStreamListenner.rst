@@ -1,12 +1,6 @@
 #################
-FLStreamListenner
+WAActionTemplate
 #################
-Funcionalidade
-~~~~~~~~~~
-
-O componente FLStreamListenner serve para ouvir aos eventos de plataforma.
-
-
 Atributos:
 ~~~~~~~~~~~~
 

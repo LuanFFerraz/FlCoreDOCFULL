@@ -19,6 +19,7 @@ Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documen
    
    
    Setup
+   Desinstalação.rst
    
 .. toctree::
     :maxdepth: 2
@@ -28,9 +29,18 @@ Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documen
     Funcional/Cadastro_Parametro
     Funcional/Cadastro_Parametro_Mob
     Funcional/Inbox do Whatsapp
-    Administrativo.rst
    
-
+   
+.. toctree::
+    :maxdepth: 2
+    :caption: Administrativo
+    
+    Administrador/Sample Layouts
+    Administrador/Process Builder/Process Builder
+    Administrador/Eventos de Plataforma/Eventos de Plataforma
+    Tecnico/Metadados/Metadados
+    Administrador/PaginasVisualforce/Páginas do Visualforce
+    Tecnico/Acionadores
 
 .. toctree::
     :maxdepth: 2
