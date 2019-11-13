@@ -11,7 +11,7 @@ Falae Core
     :alt: Solidity logo
     :align: center 
     
-Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documento será possível verifiar todas as funcionalidade e suas configurações, além da instalação da própria aplicação.
+Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documento será possível verificar todas as funcionalidade e suas configurações, além da instalação da própria aplicação.
 
 .. toctree::
    :maxdepth: 2
